@@ -72,11 +72,6 @@ a {
     margin-bottom: 50px;
 }
 
-.choose-info .media-lead {
-    width: 770px;
-    margin: 0 auto;
-}
-
 .choose-list .card-title {
     line-height: 1.5em;
 }
@@ -112,6 +107,83 @@ a {
     color: #fff;
 }
 
+.bring img {
+    display: block;
+    margin: 60px auto 10px;
+}
+
+.bring .button {
+    background-color: transparent;
+    border: 1px solid #fff;
+    box-shadow: none;
+}
+
+.what-info {
+    margin-bottom: 50px;
+}
+
+.what-list .card {
+    width: 30%;
+}
+
+.secure-list .card {
+    margin-top: 60px;
+    width: 30%;
+}
+
+.payment-help .payment-image {
+    width: 35%;
+}
+
+.payment-help .payment-info {
+    width: 57.2%;
+}
+
+.question {
+    background-color: #123D88;
+}
+
+.question-info {
+    color: #fff;
+}
+
+.question .media-title {
+    color: #fff;
+}
+
+.frequently-list {
+    margin: 50px auto 0;
+    max-width: 970px;
+}
+
+.frequently-list .card{
+    border: 1px solid #F1F1F1;
+    width: 23%;
+    padding: 26px 0;
+}
+
+.frequently-list .card-icon {
+    width: 60px;
+    margin: 0 auto;
+}
+
+.frequently-list .card-title {
+    font-size: 18px;
+    line-height: 1.66em;
+    margin-top: 30px;
+}
+
+
+.frequently-list .card:first-child {
+    background-color: #256BE6;
+    border: none;
+    box-shadow: rgba(0,0,0,0.1) 0 4px 18px;
+}
+
+.frequently-list .card:first-child .card-title {
+    color: #fff;
+}
+
 /* common
 ----------------------------- */
 .l-TA-C {
@@ -137,10 +209,16 @@ a {
     flex-wrap: wrap;
 }
 
+/* padding */
 .l-Py {
     padding: 80px 0;
 }
 
+/* width */
+.l-LeadWidth770 {
+    width: 770px;
+    margin: 0 auto;  
+}
 
 /* l-header */
 .l-header {
@@ -190,6 +268,10 @@ a {
     align-items: center;
 }
 
+.flex_DR-CL {
+    flex-direction: column;
+}
+
 /* button */
 
 .button {
@@ -208,6 +290,11 @@ a {
 .btn_info {
     background-color: #2DBE61;
     box-shadow: rgba(22,132,61,0.1) 0 5px 10px;
+    margin: 40px auto;
+}
+
+.btn_question {
+    background-color: #F87624;
 }
 
 /* media */
@@ -229,6 +316,10 @@ a {
 }
 
 /* card */
+.card {
+    background-color: #fff;
+    border-radius: 5px;
+}
 
 .card-icon {
     margin-bottom: 15px;
